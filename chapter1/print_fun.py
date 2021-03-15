@@ -1,0 +1,6 @@
+print('Dilber husain Khan')
+print("Dilber Husain Khan")
+print(' Dilber Husain Khan "Humayun"')
+print("Dilber Husain Khan or 'Humayun' ")
+print("Dilber Husain Khan's or 'Humayun' ")
+print('Dilber husain Khan')

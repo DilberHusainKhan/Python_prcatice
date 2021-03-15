@@ -1,0 +1,8 @@
+print("Dilber \"Husain\" Khan") 
+print(r"Dilber \n husaon")
+print('dilber\'s car')
+print(r'dilber\' car')
+print("this is \\\\ backslash")
+print('these are /\/\/\/\/\ mountains')
+print("he is \t awsome")
+print(" \\\" \\n \\\'")
