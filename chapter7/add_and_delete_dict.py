@@ -16,8 +16,9 @@ user_info['Technical_skill'] = ['C','C++','Python','Java','Flutter']
 # pop method will delete the item on the bases of key 
 # and return the value of deleted item & you must pass altest one variable in pop method
 
-# poped_item = user_info.pop('education')
-# print(f"Poped item is {poped_item}")
+poped_item = user_info.pop('education')
+print(f"Poped item is {poped_item}")
+print(type(poped_item))
 
 
 # popitem method
