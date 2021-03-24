@@ -19,5 +19,6 @@ more_info = {
 
 # update() method
 user_info.update(more_info)
-
 print(f"After update more_info, name will also update {user_info} .")
+user_info.update({}) # blank {} means you will not add any data.
+print(user_info)
