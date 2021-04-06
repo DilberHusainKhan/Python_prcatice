@@ -33,3 +33,20 @@ if name.get('first name'):
     print("Present")
 else:
     print("key is not present") 
+
+# Clear method
+# name.clear() # it delete the dictionary
+print(name)
+
+# Copy method
+n = name.copy()
+print(n)
+
+# if we assign n = name the n can also be a new dictionary but 
+# it should be same if we delete the item from n then it automatically deleted from name 
+m = name
+print('------------------------------------------------------------------')
+print(m.popitem())
+print(m)
+print(name)
+print(n)
