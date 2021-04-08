@@ -12,4 +12,11 @@ user1 ={
     'age': 23,
     'age':32,
 }
+user2 ={
+    'name': 'Dilber Husain Khan',
+    'age': 23,
+    'age':32,
+    'name': 'Humayun Anwar Khan'
+}
 print(user1)
+print(user2)
