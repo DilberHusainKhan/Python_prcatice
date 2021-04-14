@@ -14,7 +14,7 @@ user['fav_movie'] = fav_movie
 
 # print(user)
 
-# for loop key , value 
+# using for loop key , value 
 for key , value in user.items():
     print(f"{key} : {value} ") 
 
