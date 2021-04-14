@@ -12,6 +12,11 @@ user['age'] = age
 user['fav_song'] = fav_song
 user['fav_movie'] = fav_movie
 
-print(user)
+# print(user)
+
+# for loop key , value 
+for key , value in user.items():
+    print(f"{key} : {value} ") 
+
 
 
