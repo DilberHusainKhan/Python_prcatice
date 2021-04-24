@@ -31,5 +31,17 @@ print(s)
 s.discard(1)
 print(s)
 
+# to clear the set we use .clear() method
+s.clear()
+print(s)
+s.add(2)
+s.add(3)
+s.add(7)
+# to make copy we use copy method
+print(s)
+s4 = s.copy()
+print(f"old set is {s} and new set is {s4}")
 
-
+# we can also store float, int , bool etc. in set
+set_1 = {1,1.0,1.1} # note 1 = 1.0
+print(set_1)
