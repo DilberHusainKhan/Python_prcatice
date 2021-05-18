@@ -18,7 +18,12 @@ print(all_total(1,2,3,4,5,6,7,89,9))
 # To multiply the number with * args
 def multiply_num(*args):
     multiply = 1
+    print(args)
     for i in args:
         multiply *= i
     return multiply
 print(multiply_num(2,3,4))
+
+# We can also pass noting in argumant in *args
+# Ex
+print(f"Empty {multiply_num()}")
