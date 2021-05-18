@@ -15,5 +15,10 @@ def all_total(*args):
     return total
 print(all_total(1,2,3,4,5,6,7,89,9))
 
-
-
+# To multiply the number with * args
+def multiply_num(*args):
+    multiply = 1
+    for i in args:
+        multiply *= i
+    return multiply
+print(multiply_num(2,3,4))
