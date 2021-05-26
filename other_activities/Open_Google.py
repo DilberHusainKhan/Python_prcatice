@@ -7,7 +7,7 @@ root = Tk()
 # setting GUI Tittle
 root.title("Web Browser")
 # setting GUI size
-root.geometry("300x200")
+root.geometry("500x500")
 # function to open webtyx
 def webtyx():
     webbrowser.open("www.webtyx.com")
