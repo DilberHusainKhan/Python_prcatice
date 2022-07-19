@@ -8,12 +8,17 @@ class Employee:
         self.salary = salary
         Employee.no_of_Employee += 1
 
-# method
+# normal method or function me instance pass hota hai as an argument
     def increments(self):
         # self first search increment in instance then in class
         # or we can use Employee.increment
         self.salary = int(self.salary * self.increment)
         # self.salary = int(self.salary * Employee.increment)
+# class method me decorator lagta hai @classmethod or class pass hota hai as an argument
+
+    @classmethod
+    def change_increment(cls, amount):
+        cls.increment = amount
 
 
 print("No of Employee ", Employee.no_of_Employee)
@@ -25,6 +30,7 @@ Imdad = Employee("Imdad Husain Khan", 20000)
 # print
 print("No of Employee ", Employee.no_of_Employee)
 print(dilber.salary)
+Employee.change_increment(4)
 dilber.increments()
 print(dilber.salary)
 
