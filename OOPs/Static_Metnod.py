@@ -24,3 +24,5 @@ class Employee:
 
 
 print(Employee.isOpen("monday"))
+dilber = Employee('Dilber', 'Husain', 76000)
+print(dilber.isOpen('sunday'))
